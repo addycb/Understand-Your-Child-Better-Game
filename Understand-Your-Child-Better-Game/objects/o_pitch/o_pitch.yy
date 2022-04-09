@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Baseballplayer",
-    "path": "sprites/Baseballplayer/Baseballplayer.yy",
+    "name": "athletics",
+    "path": "sprites/athletics/athletics.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_baseballplayer",
+  "name": "o_pitch",
   "tags": [],
   "resourceType": "GMObject",
 }
