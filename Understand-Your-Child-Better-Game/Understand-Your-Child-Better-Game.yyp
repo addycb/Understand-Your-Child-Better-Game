@@ -17,7 +17,6 @@
     {"id":{"name":"o_child","path":"objects/o_child/o_child.yy",},"order":1,},
     {"id":{"name":"get_hover","path":"scripts/get_hover/get_hover.yy",},"order":0,},
     {"id":{"name":"create_button","path":"scripts/create_button/create_button.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
