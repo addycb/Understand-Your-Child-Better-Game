@@ -1,8 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"o_schedule_button","path":"objects/o_schedule_button/o_schedule_button.yy",},"order":0,},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":0,},
+    {"id":{"name":"o_test","path":"objects/o_test/o_test.yy",},"order":3,},
+    {"id":{"name":"s_schedule_button","path":"sprites/s_schedule_button/s_schedule_button.yy",},"order":0,},
     {"id":{"name":"o_child","path":"objects/o_child/o_child.yy",},"order":1,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"display_scheduling","path":"scripts/display_scheduling/display_scheduling.yy",},"order":0,},
+    {"id":{"name":"o_event","path":"objects/o_event/o_event.yy",},"order":2,},
+    {"id":{"name":"r_main","path":"rooms/r_main/r_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -18,7 +23,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"r_main","path":"rooms/r_main/r_main.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -35,6 +40,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Scheduling.yy","order":4,"resourceVersion":"1.0","name":"Scheduling","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

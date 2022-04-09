@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_schedule_button",
+    "path": "sprites/s_schedule_button/s_schedule_button.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -19,16 +22,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Scheduling",
+    "path": "folders/Objects/Scheduling.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_game",
+  "name": "o_schedule_button",
   "tags": [],
   "resourceType": "GMObject",
 }
