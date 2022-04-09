@@ -1,7 +1,13 @@
 {
   "resources": [
-    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":0,},
-    {"id":{"name":"o_child","path":"objects/o_child/o_child.yy",},"order":1,},
+    {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":1,},
+    {"id":{"name":"athletics","path":"sprites/athletics/athletics.yy",},"order":0,},
+    {"id":{"name":"o_athletics","path":"objects/o_athletics/o_athletics.yy",},"order":2,},
+    {"id":{"name":"academics","path":"sprites/academics/academics.yy",},"order":1,},
+    {"id":{"name":"o_academics","path":"objects/o_academics/o_academics.yy",},"order":3,},
+    {"id":{"name":"o_child","path":"objects/o_child/o_child.yy",},"order":0,},
+    {"id":{"name":"social","path":"sprites/social/social.yy",},"order":2,},
+    {"id":{"name":"o_social","path":"objects/o_social/o_social.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -44,7 +50,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.625",
+    "IDEVersion": "2022.3.0.624",
   },
   "resourceVersion": "1.5",
   "name": "Understand-Your-Child-Better-Game",
