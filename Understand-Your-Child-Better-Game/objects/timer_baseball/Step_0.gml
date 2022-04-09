@@ -30,5 +30,6 @@ if (time%15==0){
 	}
 
 if(time==0){
+	inst_29BABD3.strscore=inst_382F456A.strscore
 	room_goto_previous()
 }

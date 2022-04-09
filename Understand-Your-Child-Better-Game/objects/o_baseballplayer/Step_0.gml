@@ -13,6 +13,6 @@ if keyboard_check(vk_down){
 }
 if keyboard_check(vk_up){
 	image_angle=90
-}
+}	
 
 

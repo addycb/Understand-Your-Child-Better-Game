@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 53,
-  "bbox_right": 62,
-  "bbox_top": 23,
-  "bbox_bottom": 33,
+  "bbox_left": 0,
+  "bbox_right": 30,
+  "bbox_top": 0,
+  "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"3f4cfd06-26f6-4e29-83f0-8e9b8baff778","path":"sprites/Baseballplayer/Baseballplayer.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"3f4cfd06-26f6-4e29-83f0-8e9b8baff778","path":"sprites/Baseballplayer/Baseballplayer.yy",},"LayerId":{"name":"1c19a113-8689-4664-92b8-3d3ccd2fe791","path":"sprites/Baseballplayer/Baseballplayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Baseballplayer","path":"sprites/Baseballplayer/Baseballplayer.yy",},"resourceVersion":"1.0","name":"3f4cfd06-26f6-4e29-83f0-8e9b8baff778","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"53e828ec-d946-45bd-83bd-a5991b8781ea","path":"sprites/circle/circle.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"53e828ec-d946-45bd-83bd-a5991b8781ea","path":"sprites/circle/circle.yy",},"LayerId":{"name":"56794ff8-e10e-4ecf-90b8-801b6ed718e0","path":"sprites/circle/circle.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"circle","path":"sprites/circle/circle.yy",},"resourceVersion":"1.0","name":"53e828ec-d946-45bd-83bd-a5991b8781ea","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Baseballplayer","path":"sprites/Baseballplayer/Baseballplayer.yy",},
+    "spriteId": {"name":"circle","path":"sprites/circle/circle.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2f1cfe2e-f91c-4032-9219-4a7f0081b3ba","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3f4cfd06-26f6-4e29-83f0-8e9b8baff778","path":"sprites/Baseballplayer/Baseballplayer.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"88368121-ea27-4f55-80af-6eeba1d1568e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"53e828ec-d946-45bd-83bd-a5991b8781ea","path":"sprites/circle/circle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 31,
-    "yorigin": 30,
+    "xorigin": 15,
+    "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Baseballplayer","path":"sprites/Baseballplayer/Baseballplayer.yy",},
+    "parent": {"name":"circle","path":"sprites/circle/circle.yy",},
     "resourceVersion": "1.4",
-    "name": "Baseballplayer",
+    "name": "circle",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c19a113-8689-4664-92b8-3d3ccd2fe791","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56794ff8-e10e-4ecf-90b8-801b6ed718e0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Baseballplayer",
+  "name": "circle",
   "tags": [],
   "resourceType": "GMSprite",
 }

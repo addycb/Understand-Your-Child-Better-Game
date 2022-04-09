@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-time=10*30
+strscore=0
+intscore=0
+socialscore=0
 
