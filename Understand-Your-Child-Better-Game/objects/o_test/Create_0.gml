@@ -2,9 +2,9 @@
 
 event_inherited()
 
-_event_name = "test"
+_event_name = "test_prep"
 _event_instance = self
-_room = socialgame
+_room = academicsgame
 
 function minigame(){
 	show_debug_message("The minigame was successfully called")	
