@@ -3,9 +3,13 @@
 
 global.schedule = []
 global.schedule_next_index = 0 // index of which event has currently been scheduled this week
-global.schedule_limit = 3
+global.schedule_limit = 3 // represent the current limit of the schedule (how many events in the schedule)
+global.schedule_index = 0 // the index of the event we are currently participating in
 
 _scheduled = false
+_event_active = false
+_events_scheduled = false
+
 
 function scheduleWeek(){
 	var test1 = instance_create_layer(x+1, y+1, "Instances", o_test)

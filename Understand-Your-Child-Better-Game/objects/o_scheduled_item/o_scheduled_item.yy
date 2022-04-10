@@ -35,7 +35,7 @@
     "path": "folders/Objects/Scheduling.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_scheduled_button",
+  "name": "o_scheduled_item",
   "tags": [],
   "resourceType": "GMObject",
 }

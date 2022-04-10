@@ -12,7 +12,7 @@ function on_click(){
 		
 		if(global.schedule_next_index >= global.schedule_limit){
 			instance_destroy(o_schedule_button)	
-			instance_destroy(o_scheduled_button)
+			//instance_destroy(o_scheduled_item)
 		}
 	}
 }
