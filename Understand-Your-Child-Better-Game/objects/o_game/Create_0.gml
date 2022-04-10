@@ -1,16 +1,16 @@
-/// @description Initialize the Game Object
+/// @description Insert description here
+// You can write your code in this editor
 
-global.schedule = [] // array which holds all the events of the current week
-scheduleIndex = 0 // current index in the schedule array for us to place the next scheduled event
+global.schedule = []
+global.schedule_next_index = 0 // index of which event has currently been scheduled this week
+global.schedule_limit = 3
 
-weekIndex = 0 // counts the week, and depending on which week it is, a minor and major event will be scheduled
+_scheduled = false
 
-// allows the player to schedule the week
 function scheduleWeek(){
-	display_scheduling([o_test])
-	switch(weekIndex){
-		case 1:
-			global.schedule[scheduleIndex] = o_test
-			break
-	}
+	var test1 = instance_create_layer(x+1, y+1, "Instances", o_test)
+	var test2 = instance_create_layer(x+1, y+1, "Instances", o_baseball)
+	show_debug_message(test1)
+	display_scheduling([test1, test2])
 }
+

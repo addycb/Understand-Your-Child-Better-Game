@@ -3,8 +3,12 @@
 
 
 function display_scheduling(event_options){
+	var _width = 300;
+	var _height = 100;
+	
+	// loop to display the buttons of all the options the parent can schedule
 	for(var i = 0; i < array_length(event_options); i++){
-		var button = instance_create_layer(x, y, "Instances", o_schedule_button)
-		button.draw_button(event_options[i].text)
+		var _event_button = create_button(40 + (_width + 40) * i, 40, _width, _height, event_options[i]._event_name, on_click, o_schedule_button)
+		_event_button._event_instance = event_options[i]
 	}
 }

@@ -7,8 +7,9 @@ function create_button(){
 	var _height = argument[3];
 	var _text = argument[4];
 	var _script = argument[5];
+	var _button_type = argument[6]
 	
-	var _button = instance_create_layer(_x, _y, "Instances", o_button);
+	var _button = instance_create_layer(_x, _y, "Instances", _button_type);
 	with (_button) {
 		width = _width;
 		height = _height;

@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Scheduling",
+    "path": "folders/Objects/Scheduling.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_event",

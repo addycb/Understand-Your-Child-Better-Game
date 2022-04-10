@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "s_new_button",
-    "path": "sprites/s_new_button/s_new_button.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_button",
-    "path": "objects/o_button/o_button.yy",
+    "name": "o_event",
+    "path": "objects/o_event/o_event.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +30,7 @@
     "path": "folders/Objects/Scheduling.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_schedule_button",
+  "name": "o_baseball",
   "tags": [],
   "resourceType": "GMObject",
 }

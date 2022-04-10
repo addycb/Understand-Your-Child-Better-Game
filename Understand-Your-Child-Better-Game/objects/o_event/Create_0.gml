@@ -1,6 +1,6 @@
 /// @description Parent Object for all events
 
-intensity = 0
+_event_name = "poopy butt"
 
 function minigame(){
 	return -1
