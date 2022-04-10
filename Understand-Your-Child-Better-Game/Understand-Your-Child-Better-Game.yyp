@@ -29,6 +29,7 @@
     {"id":{"name":"o_baseballplayer","path":"objects/o_baseballplayer/o_baseballplayer.yy",},"order":10,},
     {"id":{"name":"timer_protector","path":"objects/timer_protector/timer_protector.yy",},"order":20,},
     {"id":{"name":"o_studyhurtbox","path":"objects/o_studyhurtbox/o_studyhurtbox.yy",},"order":25,},
+    {"id":{"name":"o_statsshow","path":"objects/o_statsshow/o_statsshow.yy",},"order":30,},
     {"id":{"name":"s_schedule_button","path":"sprites/s_schedule_button/s_schedule_button.yy",},"order":1,},
     {"id":{"name":"o_baseball","path":"objects/o_baseball/o_baseball.yy",},"order":3,},
     {"id":{"name":"display_scheduling","path":"scripts/display_scheduling/display_scheduling.yy",},"order":0,},
