@@ -1,14 +1,14 @@
 /// @description Event to open the weekly scheduling menu
 
 if(!_event_active && !_events_scheduled){
-	if(_intro_message_index < array_length(_intro_message) - 1){
+	if(_intro_message_index < array_length(_intro_message)){
 		_intro_message_index += 1
-		if(_intro_message_index >= (array_length(_intro_message) - 1)){
+		if(_intro_message_index >= (array_length(_intro_message))){
 			_display_intro_message = false
 		}
 	}
 		
-	if(_intro_message_index >= array_length(_intro_message) - 2){
+	if(_intro_message_index >= array_length(_intro_message)){
 		scheduleWeek()
 		_events_scheduled = true
 	}
