@@ -3,11 +3,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": {
-    "name": "o_event",
-    "path": "objects/o_event/o_event.yy",
-  },
+  "persistent": false,
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,15 +19,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Scheduling",
-    "path": "folders/Objects/Scheduling.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_test",
+  "name": "timer_protector",
   "tags": [],
   "resourceType": "GMObject",
 }
