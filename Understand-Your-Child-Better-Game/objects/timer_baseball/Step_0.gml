@@ -30,6 +30,6 @@ if (time%15==0){
 	}
 
 if(time==0){
-	//inst_29BABD3.socialscore=inst_76AB21BE.socialscore
+	inst_29BABD3.strscore=inst_382F456A.strscore
 	finish_event()
 }
