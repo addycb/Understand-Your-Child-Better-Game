@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "book",
+    "path": "sprites/book/book.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

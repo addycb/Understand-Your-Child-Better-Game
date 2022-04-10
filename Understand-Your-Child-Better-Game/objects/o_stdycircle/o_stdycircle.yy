@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Studier",
-    "path": "sprites/Studier/Studier.yy",
+    "name": "circle",
+    "path": "sprites/circle/circle.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_studyball","path":"objects/o_studyball/o_studyball.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_studier",
+  "name": "o_stdycircle",
   "tags": [],
   "resourceType": "GMObject",
 }

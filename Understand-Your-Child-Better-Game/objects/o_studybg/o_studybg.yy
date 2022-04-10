@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "studybg",
+    "path": "sprites/studybg/studybg.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_bookcircle",
+  "name": "o_studybg",
   "tags": [],
   "resourceType": "GMObject",
 }
