@@ -3,6 +3,6 @@
 
 event_inherited()
 
-_event_name = "baseball"
+_event_name = "social"
 _event_instance = self
-_room = athleticsgame
+_room = socialgame

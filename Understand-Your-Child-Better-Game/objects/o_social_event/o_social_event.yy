@@ -30,7 +30,7 @@
     "path": "folders/Objects/Scheduling.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_baseball",
+  "name": "o_social_event",
   "tags": [],
   "resourceType": "GMObject",
 }

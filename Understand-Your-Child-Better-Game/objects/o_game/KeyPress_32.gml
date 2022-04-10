@@ -1,12 +1,15 @@
 /// @description Event to open the weekly scheduling menu
 
-if(!_event_active && !_scheduled){
+if(!_event_active && !_events_scheduled){
 	scheduleWeek()
-	_scheduled = true
+	_events_scheduled = true
 }else{
-	_scheduled = !_scheduled
+	if(_events_scheduled && global.schedule_index < array_length(global.schedule)){
+		_event_active = true
+		show_debug_message("launching events")
+		room_goto(global.schedule[global.schedule_index]._room)
+	}
 }
 
-if(!_event_active && _events_scheduled){
-	room_goto(athleticsgame)
-}
+
+

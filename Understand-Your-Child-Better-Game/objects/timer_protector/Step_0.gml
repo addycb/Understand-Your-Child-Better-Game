@@ -31,5 +31,5 @@ if (time%15==0){
 
 if(time==0){
 	inst_29BABD3.socialscore=inst_76AB21BE.socialscore
-	room_goto_previous()
+	finish_event()
 }
