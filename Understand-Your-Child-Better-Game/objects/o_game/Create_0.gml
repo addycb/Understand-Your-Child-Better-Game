@@ -16,7 +16,7 @@ _intro_message_index = 0
 _intro_message[0] = "This is a game exploring the mental health of students, and the effect that parents have on their children's mental health. [space]"
 _intro_message[1] = "Right now, you will play as a parent who will be able to schedule activities that you'd like/expect your child to attend."
 _intro_message[2] = "While of course, you want your child to succeed, it is also important to think about the effect that your choices might have on the other aspects of your child's life"
-_intro_message[3] = "Press space to begin the scheduling [space]"
+_intro_message[3] = "Press space to begin the scheduling [space] (please select three events to schedule for your child)"
 
 function scheduleWeek(){
 	var _test = instance_create_layer(x+1, y+1, "Instances", o_test)
