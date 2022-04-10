@@ -1,7 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-
-
+/*
 function display_scheduling(event_options){
 	var _width = 300;
 	var _height = 100;
@@ -12,3 +11,5 @@ function display_scheduling(event_options){
 		_event_button._event_instance = event_options[i]
 	}
 }
+
+*/
