@@ -1,6 +1,10 @@
 /// @description Insert description here
 
 
+if(_display_intro_message){
+	draw_text_ext_transformed(50, 300, _intro_message[_intro_message_index], 20, 500, 2, 2, 0)
+}
+
 // draw the current schedule as gui on the top
 if(array_length(global.schedule) != 0){ 
 	draw_text(10, 10, "Current Schedule: ")

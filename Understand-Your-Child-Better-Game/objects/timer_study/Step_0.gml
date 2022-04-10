@@ -31,5 +31,5 @@ if (time%15==0){
 
 if(time==0){
 	inst_29BABD3.studyscore=inst_560ECEAF.studyscore
-	room_goto_previous()
+	finish_event()
 }
